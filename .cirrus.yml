@@ -47,8 +47,8 @@ rspec_task:
       image: ruby:2.6
       image: ruby:2.7
   <<: *bundle_cache
-  # environment:
-  #   CODECOV_TOKEN: ENCRYPTED[...]
+  environment:
+    CODECOV_TOKEN: ENCRYPTED[1f44ae28e679fdf1246e36996e60efbd9e433a5cd955d47a90ed7dda936d987ba9c5f626757842c60d7b8817f4bfa5a7]
   test_script: toys rspec
   only_if: ($CIRRUS_BRANCH == 'master') ||
     changesInclude(
