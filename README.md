@@ -34,8 +34,14 @@ gem install flame_routes_toys
 ## Usage
 
 ```ruby
+## .toys/.toys.rb
+
 require 'flame_routes_toys'
-expand FlameRoutesToys::Template, application: MyProject::Application
+expand FlameRoutesToys::Template,
+  application_proc: (proc do
+    require_relative '../application'
+    MyProject::Application
+  end)
 ```
 
 ## Development

@@ -1,16 +1,20 @@
 # frozen_string_literal: true
 
+require 'memery'
 require 'toys-core'
 
 module FlameRoutesToys
 	## Define toys for benchmark
 	class Template
 		include Toys::Template
+		include Memery
 
-		attr_reader :application
+		def initialize(application_proc:)
+			@application_proc = application_proc
+		end
 
-		def initialize(application:)
-			@application = application
+		memoize def application
+			@application_proc.call
 		end
 
 		on_expand do |template|
