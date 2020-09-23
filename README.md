@@ -39,7 +39,7 @@ gem install flame_routes_toys
 require 'flame_routes_toys'
 expand FlameRoutesToys::Template,
   application_proc: (proc do
-    require_relative '../application'
+    require "#{context_directory}/application"
     MyProject::Application
   end)
 ```
