@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 0.4.0 (2021-10-29)
+
+*   Replace relative path with `context_directory` in README example.
+*   Add Ruby 3.0 for CI.
+*   Update dependencies.
+
 ## 0.3.0 (2020-08-23)
 
 *   Update `toys`.
