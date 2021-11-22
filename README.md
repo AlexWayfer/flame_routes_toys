@@ -1,11 +1,11 @@
 # Flame Routes Toys
 
 [![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/flame_routes_toys?style=flat-square)](https://cirrus-ci.com/github/AlexWayfer/flame_routes_toys)
-[![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/flame_routes_toys/master.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/flame_routes_toys)
+[![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/flame_routes_toys/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/flame_routes_toys)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/flame_routes_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/flame_routes_toys)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/flame_routes_toys?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/flame_routes_toys)
-[![Inline docs](https://inch-ci.org/github/AlexWayfer/flame_routes_toys.svg?branch=master)](https://inch-ci.org/github/AlexWayfer/flame_routes_toys)
-[![license](https://img.shields.io/github/license/AlexWayfer/flame_routes_toys.svg?style=flat-square)](https://github.com/AlexWayfer/flame_routes_toys/blob/master/LICENSE.txt)
+[![Inline docs](https://inch-ci.org/github/AlexWayfer/flame_routes_toys.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/flame_routes_toys)
+[![license](https://img.shields.io/github/license/AlexWayfer/flame_routes_toys.svg?style=flat-square)](https://github.com/AlexWayfer/flame_routes_toys/blob/main/LICENSE.txt)
 [![Gem](https://img.shields.io/gem/v/flame_routes_toys.svg?style=flat-square)](https://rubygems.org/gems/flame_routes_toys)
 
 Toys template for printing [Flame](https://github.com/AlexWayfer/flame)
