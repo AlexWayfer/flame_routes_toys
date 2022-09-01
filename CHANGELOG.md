@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 0.5.0 (2022-09-01)
+
+*   Add Ruby 3.1 support.
+*   Drop Ruby 2.5 support.
+*   Update dependencies.
+
 ## 0.4.0 (2021-10-29)
 
 *   Replace relative path with `context_directory` in README example.
