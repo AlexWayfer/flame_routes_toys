@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
 	spec.files = Dir['lib/**/*.rb', 'README.md', 'LICENSE.txt', 'CHANGELOG.md']
 
 	spec.add_dependency 'alt_memery', '~> 2.0'
-	spec.add_dependency 'toys-core', '~> 0.17.0'
+	spec.add_dependency 'toys-core', '~> 0.19.0'
 end
